@@ -1,5 +1,5 @@
 {
-  "name": "@jest-games/backend-package-object-helpers",
+  "name": "@jest-games-organization/backend-package-object-helpers",
   "description": "This Jest Games Organization backend package provides object helper methods for shared functionality.",
   "version": "1.0.0",
   "author": "Jest Games Organization",
@@ -15,6 +15,10 @@
     "Object",
     "Helpers"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jest-games-organization/backend-package-object-helpers"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc --emitDeclarationOnly && rollup -c",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
